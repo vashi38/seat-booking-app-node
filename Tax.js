@@ -17,33 +17,6 @@ class Tax {
         return this._krishiKalyanCess;
     }
 
-    set serviceTax(serviceTax) {
-        try {
-            this._serviceTax = serviceTax;
-            return true;
-        } catch (e) {
-            return false;
-        }
-    }
-
-    set swachhBharatCess(swachhBharatCess) {
-        try {
-            this._swachhBharatCess = swachhBharatCess;
-            return true;
-        } catch (e) {
-            return false;
-        }
-    }
-
-    set krishiKalyanCess(krishiKalyanCess) {
-        try {
-            this._krishiKalyanCess = krishiKalyanCess;
-            return true;
-        } catch (e) {
-            return false;
-        }
-    }
-
     getServiceTaxOnRevenue(revenue) {
         const _serviceTax = parseFloat(this._serviceTax);
         const _revenue = parseFloat(revenue);

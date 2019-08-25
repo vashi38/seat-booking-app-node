@@ -4,9 +4,12 @@
   "description": "seat booking app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
     "start": "node index.js"
   },
   "author": "shivanand sonnad",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }

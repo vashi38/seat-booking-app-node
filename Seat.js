@@ -7,26 +7,9 @@ class Seat {
     get code() {
         return this._code;
     }
-    set code(code) {
-        try {
-            this._code = code;
-            return true;
-        } catch (e) {
-            return false;
-        }
-    }
 
     get price() {
         return this._price;
-    }
-
-    set price(price) {
-        try {
-            this._price = price
-            return true;
-        } catch (e) {
-            return false;
-        }
     }
 
     get booked() {

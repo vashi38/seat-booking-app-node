@@ -10,29 +10,11 @@ class Line {
         return this._code;
     }
 
-    set code(code) {
-        try {
-            this._code = code;
-            return true;
-        } catch (e) {
-            return false;
-        }
-    }
-
     get seats() {
         if (Array.isArray(this._seats)) {
             return this._seats;
         }
         return [];
-    }
-
-    set seats(seats) {
-        try {
-            this._seats = this.getListFromSeats(seats);
-            return true;
-        } catch (e) {
-            return false;
-        }
     }
 
     getListFromSeats (seats, price) {
