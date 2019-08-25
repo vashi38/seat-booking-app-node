@@ -1,4 +1,4 @@
-const ACTIONS = require('./actions');
+const ACTIONS = require('../actions');
 
 function publicService(state) {
     // handler for the select option from the menuw

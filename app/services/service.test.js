@@ -1,7 +1,7 @@
-const data = require('./data');
-const Show = require('./Show');
-const ACTIONS = require('./actions');
-const State = require('./State');
+const data = require('../data');
+const Show = require('../classes/Show');
+const ACTIONS = require('../actions');
+const State = require('../classes/State');
 const PublicService = require('./service');
 
 

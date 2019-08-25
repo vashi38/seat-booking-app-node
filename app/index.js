@@ -1,8 +1,8 @@
 const data = require('./data');
-const Show = require('./Show');
+const Show = require('./classes/Show');
 const ACTIONS = require('./actions');
-const State = require('./State');
-const PublicService = require('./service');
+const State = require('./classes/State');
+const PublicService = require('./services/service');
 
 const _shows = data.shows.map(show => new Show(show.name, show.seats, data.Tax));
 const state = new State(_shows, ACTIONS.SHOW_MENU, null);

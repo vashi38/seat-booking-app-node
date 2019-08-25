@@ -1,5 +1,5 @@
 const Tax = require('./Tax');
-const data = require('./data');
+const data = require('../data');
 
 let tax = null;
 describe('Test for Tax class', () => {
